@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ukonn アプリ サポートサイト</title>
+<meta name="description" content="ukonn が開発・提供するアプリ（第二種電気工事士 合格マスター ほか）の公式サポートサイトです。各アプリのプライバシーポリシーとお問い合わせ窓口を掲載しています。">
+<style>
+:root {
+  --bg: #ffffff;
+  --bg-alt: #f5f6f8;
+  --text: #1a1a1a;
+  --text-muted: #4b5563;
+  --link: #0056b3;
+  --border: #dde1e6;
+  --header-bg: #eef1f5;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #121212;
+    --bg-alt: #1c1c1e;
+    --text: #e8e8e8;
+    --text-muted: #b5b8bd;
+    --link: #8ab4f8;
+    --border: #3a3a3c;
+    --header-bg: #232326;
+  }
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: system-ui, -apple-system, "Segoe UI", "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
+  line-height: 1.8;
+  font-size: 16px;
+  -webkit-text-size-adjust: 100%;
+}
+
+.page {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 2.5rem 1.25rem 3rem;
+}
+
+.app-name {
+  font-size: 1.6rem;
+  margin: 0 0 1rem;
+  line-height: 1.5;
+}
+
+.tagline {
+  margin: 0 0 2.25rem;
+  color: var(--text-muted);
+  font-size: 1.02rem;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  gap: 0.9rem;
+  margin: 0 0 2rem;
+  padding: 0;
+  list-style: none;
+}
+
+.link-card {
+  display: block;
+  border: 1px solid var(--border);
+  background: var(--bg-alt);
+  border-radius: 10px;
+  padding: 1rem 1.1rem;
+  text-decoration: none;
+  color: inherit;
+}
+
+.link-card:hover,
+.link-card:focus-visible {
+  border-color: var(--link);
+}
+
+.link-card-title {
+  display: block;
+  color: var(--link);
+  font-weight: 700;
+  font-size: 1.02rem;
+  text-decoration: underline;
+}
+
+.link-card-desc {
+  display: block;
+  margin-top: 0.25rem;
+  color: var(--text-muted);
+  font-size: 0.92rem;
+  word-break: break-all;
+}
+
+footer {
+  margin-top: 3rem;
+  padding-top: 1.25rem;
+  border-top: 1px solid var(--border);
+  color: var(--text-muted);
+  font-size: 0.85rem;
+}
+
+.section-title {
+  font-size: 1.15rem;
+  margin: 2rem 0 1rem;
+  padding-bottom: 0.4rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.app-card {
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 1.2rem 1.2rem 1rem;
+  margin: 0 0 1.5rem;
+}
+
+.app-title {
+  margin: 0 0 0.5rem;
+  font-size: 1.15rem;
+  line-height: 1.5;
+}
+
+.app-desc {
+  margin: 0 0 1rem;
+  color: var(--text-muted);
+  font-size: 0.95rem;
+}
+
+.app-card .links {
+  margin: 0;
+}
+</style>
+</head>
+<body>
+<div class="page">
+
+<h1 class="app-name">ukonn アプリ サポートサイト</h1>
+<p class="tagline">ukonn が開発・提供するアプリのサポート情報（プライバシーポリシー・お問い合わせ）をまとめています。</p>
+
+<h2 class="section-title">アプリ一覧</h2>
+
+<section class="app-card">
+<h3 class="app-title">第二種電気工事士 合格マスター</h3>
+<p class="app-desc">第二種電気工事士の学科試験対策アプリです。過去問演習・教科書・複線図エディタで、試験に必要な知識と作図の基礎をまとめて学べます。</p>
+<ul class="links">
+<li><a class="link-card" href="denkou2/privacy.html">
+<span class="link-card-title">プライバシーポリシー</span>
+<span class="link-card-desc">本アプリが取り扱う情報についての説明はこちら</span>
+</a></li>
+</ul>
+</section>
+
+<h2 class="section-title">お問い合わせ</h2>
+
+<ul class="links">
+<li><a class="link-card" href="mailto:ukonn0824@gmail.com">
+<span class="link-card-title">メールでのお問い合わせ</span>
+<span class="link-card-desc">ukonn0824@gmail.com</span>
+</a></li>
+</ul>
+
+<footer>
+<p>&copy; 2026 ukonn</p>
+</footer>
+
+</div>
+</body>
+</html>
